@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Sitio de Prueba</title>
+</head>
+<body>
+
+ <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+		 <div class="navbar-header">
+			<img src="https://www.bing.com/th?id=OIP.PUZsl_w9Y997XKg-H3ee6gAAAA&pid=Api&rs=1" class="img-circle" height="42" width="42">
+		</div>  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<div class="container">
+	<div class="jumbotron">
+    <h1 align="center">Sitio de prueba</h1>      
+    <p align="center">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+	<p align="center"><a class="btn btn-primary btn-lg" href="usuarios.html" role="button">Ver página usuarios</a></p>
+  </div>
+	<br>
+    <!-- Content Row -->
+    <div class="col-md-12">
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" data-toggle="modal" class="active"></li>
+    <li data-target="#demo" data-slide-to="1" data-toggle="modal"></li>
+    <li data-target="#demo" data-slide-to="2" data-toggle="modal"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="container carousel-inner no-padding">
+    <div class="carousel-item active">
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto1.jpg" data-toggle="modal" data-target="#basicModal" class="Thumbnail">
+      </div>    
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto2.jpg" data-toggle="modal" data-target="#basicModal" class="Thumbnail">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto3.jpg" data-toggle="modal" data-target="#basicModal" class="Thumbnail">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto4.jpg" data-toggle="modal" data-target="#basicModal" class="Thumbnail">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto5.jpg">
+      </div>    
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto6.jpg">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto1.jpg">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto2.jpg">
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto3.jpg">
+      </div>    
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto4.jpg">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto5.jpg">
+      </div>   
+      <div class="col-xs-3 col-sm-3 col-md-3">
+        <img src="Imagenes/foto6.jpg">
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			
+		</div>
+      
+      <div class="modal-body align-center">
+            <img src="" alt="" id="image" class="img-responsive" style="height:100%;">
+      </div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+
+    </div>
+  </div>
+</div> 
+
+</body>
+  <footer class="py-5 footer-light bg-light">
+    <div class="container">
+	<!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-2 pull-right">
+        <div class="mb-1 flex-end text-right">
+			<a href="#" class="fa fa-facebook px-2"></a>
+            <a href="#" class="fa fa-twitter px-2"></a>
+			<a href="#" class="fa fa-linkedin px-2"></a>			
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+      
+    </div>
+    <!-- /.container -->
+	<!-- Copyright -->
+  <div class="footer-copyright text-left py-3">
+	<p class="m-0 text-center text-black">Copyright &copy; Mi sitio 2019</p>
+  </div>
+  <!-- Copyright -->
+  </footer>
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+var $imageSrc;  
+$('.Thumbnail').click(function() {
+    $imageSrc = $(this).attr("src");
+	$("#image").attr('src', $imageSrc  ); 
+	$('#myModal').modal('show');
+});
+
+
+// document ready  
+});
+</script>
+<style>
+.jumbotron {
+margin-top:80px;
+background:url(Imagenes/fotoFondo.jpg);
+background-size:cover;
+color:black;
+}
+.col-md-3{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-3 img{
+  width:100%;
+  height:auto;
+}
+body .carousel-indicators li{
+  background-color:red;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color:red;
+}
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+.modal-body {
+    position:relative; /* This avoids image to go off the container */
+    height: 450px;
+}
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+</style>
